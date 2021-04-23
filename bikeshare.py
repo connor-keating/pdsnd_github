@@ -228,6 +228,7 @@ def create_user_output_string(in_string, data):
 
 
 def main():
+    """Main code loop for interactive terminal project"""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
