@@ -218,7 +218,7 @@ def create_most_common_output_string(target, answer):
 
 def create_duration_output_string(calculation, answer):
     """Create and print string to terminal for calculated duration statistics"""
-    print('The {} travel time is {} minutes'.format(calculation, answer))
+    print(f'The {calculation} travel time is {answer} minutes')
 
 
 def create_user_output_string(in_string, data):
