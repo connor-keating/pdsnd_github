@@ -254,4 +254,5 @@ def main():
 
 
 if __name__ == "__main__":
+    """Execute if this is the main file being run"""
 	main()
