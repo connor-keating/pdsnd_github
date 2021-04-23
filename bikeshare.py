@@ -213,7 +213,7 @@ def show_raw_data(df, position):
 
 def create_most_common_output_string(target, answer):
     """Create and print string to be printed to screen for most common things"""
-    print('The most common {} is: {}'.format(target, answer))
+    print(f'The most common {target} is: {answer}')
 
 
 def create_duration_output_string(calculation, answer):
